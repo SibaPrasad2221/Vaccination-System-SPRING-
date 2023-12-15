@@ -11,7 +11,7 @@ public class Patient {
     @Id //make this field as unique id
     @GeneratedValue(strategy = GenerationType.AUTO) //automatically unique id will be generated, id's will be in combination of text and num eg;10Xf0350j
     UUID id; //this id contains data UUID type
-h;
+
     String name;
     String gender;
 
